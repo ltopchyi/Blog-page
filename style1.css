@@ -73,10 +73,7 @@ nav img {
     display: grid;
     grid-template-columns: 1fr 900px 300px 1fr;
 }
-main {
-   
- 
-}
+
 
 .container {
 grid-gap: 10px;
@@ -115,10 +112,26 @@ h2 {
     
  
 }
-
 aside {
-   
-    background: rgb(79, 3, 221);
+    margin:  10px;
+}
+
+aside p {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.author {
+    font-size: 16px;
+    font-weight: bold; 
+}
+
+
+.author img {
+    width: 80px;
+    height: 80 px;
+    float: left;
+    margin-right: 10px;
 
 }
 
