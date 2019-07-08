@@ -169,13 +169,13 @@ aside p {
         
 }
 
-input { 
+#input { 
     
     border-color: #AAEE00;
   margin-right: 10px;
 }
 
-button {
+#button {
 background-color: #448800; 
   border: none;
   color: white;
