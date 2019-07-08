@@ -169,7 +169,7 @@ aside p {
         
 }
 
-#input { 
+#input, input[type="search"] { 
     
     border-color: #AAEE00;
   margin-right: 10px;
