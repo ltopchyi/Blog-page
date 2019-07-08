@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+header {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+nav {
+       width: 720px;
+   
+    float: right;
+    padding-top: 150px;
+    position: relative;
+}
+
+nav a {
+   
+     margin-right: 20px; /* создание отступов для того, чтобы не сливались пункты меню. */
+    font-size: 18px; /* Размер текста в ссылках. */  
+    margin-bottom: 10px;
+     padding: 10px 15px;  /* Внутри блочные отступы. */
+     display: block;
+     float: left;
+     background: #66AA00; /* Цвет блоков меню. */
+     color: #fff; /* Цвет текста в блоках меню. */
+     text-decoration: none; /* Устранение подчёркивания ссылок. */
+     
+     
+     text-align: center;
+}
+
+nav a:hover {
+    background: #448800; /* Цвет блока при наведении курсора. */
+}
+
+#social {
+position: absolute;
+  top: 20px;
+  left: 450px;
+ }
+
+#social a {
+    background: transparent; /* Цвет блоков меню. */
+       text-decoration: none;
+       float: left;
+       display: block;
+}
+nav img {
+        height: 40px;
+         width: 40px;
+         
+}
+#search {
+    position: absolute;
+  top: 20px;
+  left: 300px;
+}
+#search a {
+    background: transparent; /* Цвет блоков меню. */
+       text-decoration: none;
+        display: block;
+}
+
+.maincontent { 
+
+    display: grid;
+    grid-template-columns: 1fr 900px 300px 1fr;
+}
+main {
+   
+ 
+}
+
+.container {
+grid-gap: 10px;
+
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+justify-content: center;
+}
+
+.post {
+    width: 200px;
+    padding: 5px;
+   }
+
+.post-image img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0A6600;
+}
+
+.post p {
+    text-align: justify;
+    
+}
+
+.more a {
+    font-size: 16px;
+    color: #0A6600;
+    
+ 
+}
+
+aside {
+   
+    background: rgb(79, 3, 221);
+
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+}
+footer {
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(138, 235, 11);
+    clear: both;
+}
+
+
+
