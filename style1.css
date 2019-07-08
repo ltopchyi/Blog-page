@@ -32,7 +32,6 @@ nav a {
      color: #fff; /* Цвет текста в блоках меню. */
      text-decoration: none; /* Устранение подчёркивания ссылок. */
      
-     
      text-align: center;
 }
 
@@ -82,6 +81,20 @@ display: grid;
 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 
 justify-content: center;
+}
+
+.containerbig {
+    display: grid;
+   justify-content: center;
+grid-column-start: 2;
+grid-column-end: 3;
+}
+
+.containerbig h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0A6600;
+    margin-top: 100px;
 }
 
 .post {
@@ -135,6 +148,46 @@ aside p {
 
 }
 
+.social {
+    background-color: #448800;
+   color: #448800;
+   display: inline-block;
+    
+}
+.social a {
+    
+       text-decoration: none;
+       float: left;
+       display: block;
+       
+}
+.social img {
+        height: 20px;
+         width: 20px;
+         margin-right:30px;
+         margin-left: 30px;
+        
+}
+
+input { 
+    
+    border-color: #AAEE00;
+  margin-right: 10px;
+}
+
+button {
+background-color: #448800; 
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  border-radius: 12px;
+
+}
+
 .clearfix::after {
     content: ".";
     display: block;
@@ -145,7 +198,7 @@ aside p {
 footer {
     width: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(138, 235, 11);
+    background-color: #448800;
     clear: both;
 }
 
